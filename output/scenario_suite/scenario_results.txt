@@ -1,0 +1,41 @@
+Scenario Suite Results
+
+Scenario: burst_high_priority
+Delivered: 45 / 45
+Pending: 0
+Average delivery minutes: 58.05
+SLA compliance rate: 17.78%
+High-priority on-time rate: 26.67%
+Max queue depth: 45
+Assignment range: 1
+Warnings: 86
+
+Scenario: limited_agents_tight_sla
+Delivered: 60 / 60
+Pending: 0
+Average delivery minutes: 129.95
+SLA compliance rate: 6.67%
+High-priority on-time rate: 4.76%
+Max queue depth: 46
+Assignment range: 3
+Warnings: 205
+
+Scenario: noisy_input_resilience
+Delivered: 15 / 15
+Pending: 0
+Average delivery minutes: 34.27
+SLA compliance rate: 86.67%
+High-priority on-time rate: 75.0%
+Max queue depth: 1
+Assignment range: 2
+Warnings: 30
+
+Scenario: partial_disconnect
+Delivered: 31 / 50
+Pending: 19
+Average delivery minutes: 24.18
+SLA compliance rate: 100.0%
+High-priority on-time rate: 100.0%
+Max queue depth: 20
+Assignment range: 2
+Warnings: 36

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "dataset": "raw",
+    "generated_at_utc": "2026-05-06T07:29:05Z"
+  },
+  "summary": {
+    "orders_total": 150,
+    "orders_delivered": 150,
+    "orders_pending": 0,
+    "average_delivery_minutes": 14.01,
+    "average_assignment_wait_minutes": 0.0,
+    "average_sla_margin_minutes": 37.5,
+    "sla_compliance_rate_percent": 100.0,
+    "sla_breach_rate_percent": 0.0,
+    "high_priority_on_time_rate_percent": 100.0,
+    "high_priority_average_sla_margin_minutes": 29.74,
+    "max_queue_depth": 1,
+    "assignment_cycles": 266,
+    "assignments_made": 150,
+    "average_decision_latency_ms": 0.116,
+    "simulation_timespan_minutes": 517.3,
+    "simulation_arrival_rate_orders_per_minute": 0.29,
+    "runtime_processing_throughput_orders_per_minute": 280756.04
+  },
+  "fairness": {
+    "assignment_counts": {
+      "A001": 6,
+      "A002": 6,
+      "A003": 7,
+      "A004": 5,
+      "A005": 7,
+      "A006": 6,
+      "A007": 7,
+      "A008": 6,
+      "A009": 6,
+      "A010": 6,
+      "A011": 6,
+      "A012": 7,
+      "A013": 6,
+      "A014": 6,
+      "A015": 6,
+      "A016": 4,
+      "A017": 6,
+      "A018": 5,
+      "A019": 6,
+      "A020": 6,
+      "A021": 6,
+      "A022": 6,
+      "A023": 6,
+      "A024": 6,
+      "A025": 6
+    },
+    "min_assignments": 4,
+    "max_assignments": 7,
+    "mean_assignments": 6.0,
+    "assignment_range": 3,
+    "load_variance": 0.4,
+    "load_std_dev": 0.6325
+  },
+  "priority_breakdown": {
+    "high": {
+      "delivered": 51,
+      "average_delivery_minutes": 13.08,
+      "sla_breach_rate_percent": 0.0,
+      "average_sla_margin_minutes": 29.74
+    },
+    "normal": {
+      "delivered": 50,
+      "average_delivery_minutes": 15.7,
+      "sla_breach_rate_percent": 0.0,
+      "average_sla_margin_minutes": 36.34
+    },
+    "low": {
+      "delivered": 49,
+      "average_delivery_minutes": 13.26,
+      "sla_breach_rate_percent": 0.0,
+      "average_sla_margin_minutes": 46.74
+    }
+  },
+  "assumptions": [
+    "Environment edges are treated as bidirectional travel links for routing.",
+    "Each agent executes assigned orders sequentially and can queue up to two active orders.",
+    "Order location is treated as the service destination because the dataset does not provide separate pickup and drop-off nodes.",
+    "Estimated service time is travel time plus prep time.",
+    "The stricter 500ms decision-latency target from the issue list is used for performance checks."
+  ],
+  "warnings": []
+}
