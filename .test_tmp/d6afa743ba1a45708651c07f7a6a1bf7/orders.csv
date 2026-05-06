@@ -1,0 +1,3 @@
+order_id,timestamp,location_x,location_y,prep_time_minutes,priority,sla_minutes
+O001,2026-05-03 09:00:00,0,0,5,urgent,30
+O002,2026-05-03 09:05:00,1,0,5,high,30

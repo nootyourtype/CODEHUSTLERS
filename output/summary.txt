@@ -1,0 +1,14 @@
+Smart Delivery Dispatch MVP
+Dataset: raw
+Generated at (UTC): 2026-05-06T07:29:05Z
+Orders delivered: 150 / 150
+Average delivery time (minutes): 14.01
+SLA compliance rate: 100.0%
+SLA breach rate: 0.0%
+High-priority on-time rate: 100.0%
+High-priority average SLA margin (minutes): 29.74
+Assignments made: 150
+Fairness assignment range: 3
+Fairness load std dev: 0.6325
+Average decision latency (ms): 0.116
+Runtime processing throughput (engine orders/minute): 280756.04

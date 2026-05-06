@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "burst_high_priority",
+    "orders_delivered": 45,
+    "orders_total": 45,
+    "orders_pending": 0,
+    "average_delivery_minutes": 58.05,
+    "sla_compliance_rate_percent": 17.78,
+    "high_priority_on_time_rate_percent": 26.67,
+    "max_queue_depth": 45,
+    "assignment_range": 1,
+    "warning_count": 86
+  },
+  {
+    "scenario": "limited_agents_tight_sla",
+    "orders_delivered": 60,
+    "orders_total": 60,
+    "orders_pending": 0,
+    "average_delivery_minutes": 129.95,
+    "sla_compliance_rate_percent": 6.67,
+    "high_priority_on_time_rate_percent": 4.76,
+    "max_queue_depth": 46,
+    "assignment_range": 3,
+    "warning_count": 205
+  },
+  {
+    "scenario": "noisy_input_resilience",
+    "orders_delivered": 15,
+    "orders_total": 15,
+    "orders_pending": 0,
+    "average_delivery_minutes": 34.27,
+    "sla_compliance_rate_percent": 86.67,
+    "high_priority_on_time_rate_percent": 75.0,
+    "max_queue_depth": 1,
+    "assignment_range": 2,
+    "warning_count": 30
+  },
+  {
+    "scenario": "partial_disconnect",
+    "orders_delivered": 31,
+    "orders_total": 50,
+    "orders_pending": 19,
+    "average_delivery_minutes": 24.18,
+    "sla_compliance_rate_percent": 100.0,
+    "high_priority_on_time_rate_percent": 100.0,
+    "max_queue_depth": 20,
+    "assignment_range": 2,
+    "warning_count": 36
+  }
+]
